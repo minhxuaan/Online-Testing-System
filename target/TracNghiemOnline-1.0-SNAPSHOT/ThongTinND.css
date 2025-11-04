@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+      body{
+                font-family: Arial, sans-serif;
+                background-color: #f4f6f8;
+                position: relative;
+            }
+            .btn-back {
+                position: fixed;
+                top: 85px;
+                left: 20px;
+                color: black; 
+                padding: 8px 12px;
+                text-decoration: none;
+                border-bottom: 1px solid black;
+                z-index: 1000;
+                margin-top: 5px;
+            }
+            .info-container {
+                max-width: 500px;
+                margin: 150px auto;
+                margin-bottom: 290px;
+                padding: 30px;
+                border: 1px solid #ccc;
+                border-radius: 12px;
+                background-color: #fdfdfd;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            }
+
+            .info-container h2 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .info-container p {
+                font-size: 16px;
+                margin: 8px 0;
+            }
+
+            .info-container button {
+                display: block;
+                margin: 20px auto 0;
+                padding: 10px 25px;
+                background-color: #3498db;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+
+            .info-container button:hover {
+                background-color: #2980b9;
+            }

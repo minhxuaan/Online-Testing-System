@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .wrapp{
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 15px;
+        }
+        .btn-back{         
+            padding: 8px 2px; 
+            font-size: 15px; 
+            border: none;  
+            border-bottom: 1px solid black;
+            color: black; 
+            cursor: pointer;
+            text-decoration: none;            
+        }
+        select{
+            padding: 5px;
+            font-size: 16px;
+        }
+        .choose-subject{
+            display: flex;
+            align-items: center; 
+            gap: 10px; 
+        }
+        h2 { text-align: center; }
+
+        .exam-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .start-btn {
+            margin-top: 15px;
+            padding: 8px 16px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-left: 450px;
+        }
+
+        .start-btn:hover {background-color: #0056b3; }
+

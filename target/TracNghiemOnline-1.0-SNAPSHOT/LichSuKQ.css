@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+ body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 20px;
+            margin-top: 80px;
+        }
+        .wrapp{
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 15px;
+        }
+        .btn-back{         
+            padding: 8px 2px; 
+            font-size: 15px; 
+            border: none;  
+            border-bottom: 1px solid black;
+            color: black; 
+            cursor: pointer;
+            text-decoration: none;            
+        }        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px auto;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {  margin: 0 0 10px;  }
+
+        .card p {  margin: 5px 0;}
+        .card a{ 
+            text-decoration: none; 
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin-left: 470px;
+            font-size: 15px;
+        }
+        .score {
+            font-weight: bold;
+            color: red;
+        }
+
+        .timestamp {
+            font-style: italic;
+            color: #555;
+        }
+

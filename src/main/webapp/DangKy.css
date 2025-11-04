@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to left, white, #a1ccf2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .register-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            width: 350px;;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        label {
+            font-weight: 500;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            border: none;
+            background-color: #e2effa;
+            border-radius: 8px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4da6ff;
+            color: white;
+            padding: 10px 0;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3399ff;
+        }
+
+        .message {
+            color: green;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .error {
+            color: red;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .login-link a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        .login-link a:hover {
+            text-decoration: none;
+        }

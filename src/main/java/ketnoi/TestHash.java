@@ -10,13 +10,13 @@ package ketnoi;
  */
 public class TestHash {
      public static void main(String[] args) {
-        String adminPass = "123@";
+        String teacherPass = "123@";
         String studentPass = "123";
 
-        String hashedAdminPass = HashPassword.hashPassword(adminPass);
+        String hashedTeacherPass = HashPassword.hashPassword(teacherPass);
         String hashedstudentPass = HashPassword.hashPassword(studentPass);
 
-        System.out.println("Hashed Admin Password: " + hashedAdminPass);
-        System.out.println("Hashed Customer Password: " + hashedstudentPass);
+        System.out.println("Hashed Teacher Password: " + hashedTeacherPass);
+        System.out.println("Hashed StudentPass Password: " + hashedstudentPass);
     }
 }

@@ -1,0 +1,25 @@
+# NetBeans
+nbproject/private/
+build/
+dist/
+target/
+
+# Maven
+*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Database config (nếu bạn có file properties)
+src/resources/db.properties
+
+# OS files
+.DS_Store
+Thumbs.db
